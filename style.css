@@ -1,0 +1,25 @@
+@import './bootstrap.css';
+
+.bg-custom-body {
+    background-color: rgb(215, 210, 210) !important;
+}
+
+body {
+    letter-spacing: 0.2dvw;
+    font-weight: 400;
+    background-image: url('./background.jpg');
+}
+
+.name-area {
+    width: 100%;
+    height: 100dvh;
+}
+
+.centered-div {
+    display: flex;
+    flex-direction: column;
+    height: 100dvh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
